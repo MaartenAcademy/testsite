@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: maartenacademy/testsite
-  tag: "11"  # Of specifieke versie zoals "9"
+  tag: "latest"  # Of specifieke versie zoals "9"
   pullPolicy: Always  # Belangrijk! Anders cached hij oude versie
 
 service:
